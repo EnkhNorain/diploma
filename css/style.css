@@ -4,6 +4,6 @@ body {
 }
 
 header {
-	background: url(/img/football_1920.jpg) center top / cover
+	background: url(sources/img/football_1920.jpg) center top / cover
 	height: 600px;
 }
