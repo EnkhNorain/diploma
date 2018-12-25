@@ -1,1 +1,9 @@
+body {
+	padding: 0;
+	margin: 0;
+}
 
+header {
+	background: url(/img/football_1920.jpg) center top / cover
+	height: 600px;
+}
