@@ -1,30 +1,209 @@
 body {
 	padding: 0;
 	margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 .container {
-	background-color: #481bae;
+	background-color: #0a0e34;
 	opacity: 0.7;
 }
 
 header {
-	background: url(../sources/img/football_1920.jpg) center top / cover
+	background: url(../img/football_1920.jpg) center top / cover;
 }
 
 .logo__text {
-	width: 15%;
-	height: 15%;
+	width: 191px;
+	height: 52px;
+	margin: 45px 865px 295px 865px;
+}
+
+.text__header {
+	font-size: 90px;
+    letter-spacing: 5px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.text__sports {
+    font-size: 90px;
+    letter-spacing: 5px;
+    line-height: 31px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: left;
+    margin: 25px 198px 222px 644px; 
 }
 
 .button {
-	width: 140px;
-    height: 140px;
-    background-color: #481bae;
-    border-radius: 35%;
+	width: 311px;
+    height: 77px;
+    border-radius: 38px;
+    box-shadow: 8px 13.856px 24px #0a0e34;
+    background-color: #5e42b0;
 }
 
 .button__app {
-	width: 15%;
-	height: 15%;
+	fill: #ffffff;
+	width: 40%;
+	height: 40%;
 }
 
+.text__get__it__on {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #ffffff;
+}
+
+.text__google__play {
+	font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.text__appstore {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.text__headline {
+    font-size: 80px;
+    line-height: 60px;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+
+.headling__blue {
+    width: 19px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #5e42b0;
+    margin: 0 auto;
+
+}
+
+.headling__white {
+    width: 21px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.numbers__headline {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+.list__headline {
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 34px;
+    color: #c1c1c1;
+    font-weight: bold;
+}
+
+.list__text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.list__text__white {
+    width: 742px;
+    height: 52px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.rectangle1 {
+    width: 1925px;
+    height: 250px;
+    background-color: #5e42b0;
+    opacity: 0.6;
+}
+
+.rectangle2 {
+    width: 1925px;
+    height: 222px;
+    background-color: #5e42b0;
+}
+
+.rectangle3 {
+    width: 1925px;
+    height: 230px;
+    background-color: #0a0e34;
+    opacity: 0.4;
+}
+
+.rectangle4 {
+    width: 1925px;
+    height: 196px;
+    background-color: #0a0e34;
+}
+
+.rectangle5 {
+    width: 168px;
+    height: 155px;
+    background-color: #5e42b0;
+}
+
+.number__rectangle {
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    color: #f5f6f7;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__image {
+    background-color: #0a0e34;
+    
+}
+
+.rectangle6 {
+    width: 24px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.logo__surface {
+    fill: #ffffff;
+    width: 10%;
+    height: 10%;
+}
+
+.footer__headline {
+    font-size: 80px;
+    letter-spacing: 4px;
+    line-height: 60px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer__text {
+    font-size: 30px;
+    line-height: 34px;
+    color: #a496ca;
+}
+
+footer {
+    background: url(../img/game_1920.jpg) center top / cover;
+}
