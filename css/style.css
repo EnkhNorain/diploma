@@ -5,11 +5,11 @@ body {
 .container {
   position: relative;
   z-index: 1;
-}
+}  
 
 header {
   background: url(../img/football_1920.jpg) center top / cover;
-  position: relative;
+  
 }
 
 header::after {
@@ -19,7 +19,7 @@ header::after {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #0a0e34;
+  background-color: #17183a;
   opacity: 0.1;
 }
 .page-title {
@@ -110,6 +110,11 @@ header::after {
     margin: 0 auto;
 }
 
+.athlets {
+  display: flex;
+  flex-direction: column;
+}
+
 .athlets__number {
     font-size: 18px;
     letter-spacing: 1px;
@@ -119,16 +124,31 @@ header::after {
     text-align: center;
 }
 
-.athlets__number::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 5px; 
+
+
+.athlets__row-gray {
+  background-color: #fafafa;
+}
+
+
+.athlets__row-darkgray {
+  background-color: #f5f4f9;
+}
+
+.athlets__row-purple {
   background-color: #5e42b0;
-  opacity: 0.3;
-  border-radius: 5px;
-  bottom: -6px;
+}
+
+.players__row-purple {
+  background-color: #090c35;
+}
+
+.athlets__row-purple .athlets__text{
+  color: #ffffff;
+}
+
+.players__row-purple .athlets__text{
+  color: #ffffff;
 }
 
 .athlets__title {
@@ -144,11 +164,9 @@ header::after {
     font-size: 20px;
     letter-spacing: 1px;
     color: #000000;
+    text-align: center;
 }
 
-.athlets__row-purple .athlets__text {
-  color: #ffffff;
-}
 
 .box_card {
   background-color: #5e42b0;
@@ -175,7 +193,17 @@ header::after {
   background-color: #ffffff;
   opacity: 0.3; /* Надо задать правильное значение по макету */
   border-radius: 5px;
-  bottom: -10px; /* Надо задать правильное значение по макету */
+  bottom: -9px; 
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.advantages__item {
+
 }
 
 .advantages__title {
@@ -230,6 +258,6 @@ footer::after {
   right: 0;
   left: 0;
   bottom: 0;
-  background-color: #0a0e34;
+  background-color: #17183a;
   opacity: 0.1;
 }
