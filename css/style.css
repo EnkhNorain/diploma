@@ -5,11 +5,16 @@ body {
 .container {
   position: relative;
   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }  
 
 header {
   background: url(../img/football_1920.jpg) center top / cover;
-  
+  background-size: cover;
+  position: relative;
 }
 
 header::after {
@@ -20,7 +25,8 @@ header::after {
   left: 0;
   bottom: 0;
   background-color: #17183a;
-  opacity: 0.1;
+  opacity: 0.9;
+  z-index: 0;
 }
 .page-title {
   text-transform: uppercase;
@@ -60,6 +66,8 @@ header::after {
   text-decoration: none;
   padding: 5px 35px;
   width: 280px;
+  margin-right: 50px;
+  margin-bottom: 110px;
 }
 
 .button-icon {
@@ -86,33 +94,24 @@ header::after {
   margin: 45px 865px 295px 865px;
 }
 
-.text__headline {
+.athlets__headline {
     font-size: 80px;
     line-height: 60px;
     color: #e7e7e7;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-.headling__blue {
-    width: 19px;
-    height: 5px;
-    border-radius: 2px;
-    background-color: #5e42b0;
-    margin: 0 auto;
-}
-
-.headling__white {
-    width: 21px;
-    height: 5px;
-    border-radius: 2px;
-    background-color: #ffffff;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .athlets {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  
+}
+
+.athlets__foto {
+    position: absolute;
 }
 
 .athlets__number {
@@ -124,12 +123,13 @@ header::after {
     text-align: center;
 }
 
-
+.number__blue {
+    color: #8c6fde;
+}
 
 .athlets__row-gray {
   background-color: #fafafa;
 }
-
 
 .athlets__row-darkgray {
   background-color: #f5f4f9;
@@ -158,6 +158,7 @@ header::after {
     color: #c1c1c1;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .athlets__text {
@@ -203,7 +204,12 @@ header::after {
 }
 
 .advantages__item {
+  display: flex;
+  flex-direction: row;
+}
 
+.advantages__find {
+  flex-direction: row-reverse;
 }
 
 .advantages__title {
@@ -221,28 +227,57 @@ header::after {
   color: #000000;
 }
 
-.logo__surface {
-    fill: #ffffff;
-    width: 10%;
-    height: 10%;
+.footer__headline {
+  font-size: 80px;
+  letter-spacing: 4px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.footer__headline {
-    font-size: 80px;
-    letter-spacing: 4px;
-    line-height: 60px;
-    color: #ffffff;
-    font-weight: bold;
+.footer__logo-top {
+  width: 130px;
+  height: 137px;
+  border-radius: 38px;
+  background-color: #5e42b0;
+}
+
+.logo__surface {
+  fill: #ffffff;
+  width: 110px;
+  height: 110px;
+}
+
+.footer__title {
+  font-size: 80px;
+  letter-spacing: 4px;
+  line-height: 60px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .footer__text {
-    font-size: 30px;
-    line-height: 34px;
-    color: #a496ca;
+  font-size: 30px;
+  line-height: 34px;
+  color: #a496ca;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 footer {
-    background: url(../img/game_1920.jpg) center top / cover;
+  background: url(../img/game_1920.jpg) center top / cover;
+  background-size: cover;
+  position: relative;
+}
+
+.footer__body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__logo {
@@ -259,5 +294,6 @@ footer::after {
   left: 0;
   bottom: 0;
   background-color: #17183a;
-  opacity: 0.1;
+  opacity: 0.9;
+  z-index: 0;
 }
