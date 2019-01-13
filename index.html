@@ -48,7 +48,7 @@
 
     <section class="athlets">
       
-      <h2 class="text__headline">Athlets</h2>
+      <h2 class="athlets__headline">Athlets</h2>
 
       <div class="athlets__foto">
         <picture>
@@ -61,7 +61,7 @@
 
       <div class="athlets__row athlets__row-gray">
         <div class="athlets__inner">
-          <div class="athlets__headline">
+          <div class="athlets__body">
             <div class="athlets__number">01</div>
             <h3 class="athlets__title">Connection</h3>
           </div>
@@ -89,13 +89,13 @@
   <section class="athlets">
       
 
-      <h2 class="text__headline">Players</h2>
-      <div class="athlets__foto">
+      <h2 class="athlets__headline">Players</h2>
+      <div class="players__foto">
       <picture>
           <source media="(min-width: 1920px)" srcset="img/basketballer_991.png" >
           <source media="(max-width: 320px)" srcset="img/basketballer_302.png">
           <source media="(min-width: 320px), (max-width: 768px)" srcset="img/basketballer_436.png">
-          <img src="img/basketballer_436" alt="basketballer">   
+          <img src="img/basketballer_991.png" alt="basketballer">   
         </picture>
       </div>
 
@@ -119,7 +119,7 @@
       
       <div class="athlets__row players__row-purple">
         <div class="athlets__headline">
-          <div class="athlets__number">03</div>
+          <div class="athlets__number number__blue">03</div>
           <h3 class="athlets__title">Growth</h3>
         </div>
         <p class="athlets__text">Save your time, recruit proper athlets from your team.</p>
@@ -146,7 +146,7 @@
         </div>
       </div>
 
-      <div class="advantages__item">
+      <div class="advantages__item advantages__find">
         <div class="advantages__img">
           <picture>
               <source media="(min-width: 320px)" srcset="img/find-contact_640.jpg">
@@ -184,16 +184,16 @@
     </section>
 
     <footer class="footer">
-
+      <div class="footer__body">
       <div class="footer__headline">
-
-        <svg class="logo__surface" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/">
+        <div class="footer__logo-top">
+         <svg class="logo__surface" viewBox="0 0 288 264" xmlns="http://www.w3.org/2000/">
           <g fill-rule="evenodd">
             <path d="M115.5 36.848v190.304L253.03 132 115.5 36.848zM282.112 142.28l-172 119c-8.29 5.736-19.612-.198-19.612-10.28V13c0-10.082 11.321-16.016 19.612-10.28l172 119c7.184 4.97 7.184 15.59 0 20.56z" fill-rule="nonzero"/>
             <path d="M42.5 107h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zm0 70h107a8 8 0 1 0 0-16h-107a8 8 0 1 0 0 16zM8 143h168a8 8 0 1 0 0-16H8a8 8 0 1 0 0 16z" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"/>
           </g>
-        </svg>
-
+         </svg>
+        </div> 
         <h2 class="footer__title">Download app</h2>
         <p class="footer__text">Show everyone what you can do</p>
       </div>
@@ -229,7 +229,6 @@
         </a>
       </div>
       </div>
-
     </footer>
   </body>
 </html>
