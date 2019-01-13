@@ -29,6 +29,8 @@ header::after {
   z-index: 0;
 }
 .page-title {
+    display: flex;
+    flex-direction: column;
   text-transform: uppercase;
 }
 
@@ -39,7 +41,8 @@ header::after {
   color: #ffffff;
   font-weight: bold;
   text-align: center;
-  margin: 392px 1063px 501px 192px;
+  margin-right: 1063px;
+  margin-bottom: 25px;
 
 }
 
@@ -50,7 +53,9 @@ header::after {
     color: #ffffff;
     font-weight: bold;
     text-align: left;
-    margin: 25px 644px 222px 198px; 
+    margin-left: 644px;
+    margin-top: 25px;
+    margin-bottom: 222px;
 }
 
 /* Button */
@@ -107,7 +112,12 @@ header::after {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .athlets__foto {
@@ -123,9 +133,6 @@ header::after {
     text-align: center;
 }
 
-.number__blue {
-    color: #8c6fde;
-}
 
 .athlets__row-gray {
   background-color: #fafafa;
@@ -197,19 +204,15 @@ header::after {
   bottom: -9px; 
 }
 
-.advantages {
-  display: flex;
-  flex-direction: column;
-
-}
-
 .advantages__item {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .advantages__find {
   flex-direction: row-reverse;
+  align-items: center;
 }
 
 .advantages__title {
@@ -233,7 +236,11 @@ header::after {
   line-height: 60px;
   color: #ffffff;
   font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
+
 
 .footer__logo-top {
   width: 130px;
@@ -255,6 +262,7 @@ header::after {
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 250px
 }
 
 .footer__text {
@@ -263,6 +271,12 @@ header::after {
   color: #a496ca;
   font-weight: 400;
   text-transform: uppercase;
+  margin-bottom: 166px;
+  margin-top: 2px;
+}
+
+.button__footer {
+    margin-bottom: 262px;
 }
 
 footer {
