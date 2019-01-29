@@ -1,0 +1,215 @@
+@media (min-width: 768px) and (max-width: 960px) {
+ 
+  .header {
+    background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../img/football_1280.jpg);
+  }
+
+  .footer {background-image: linear-gradient(rgba(10, 14, 52, 0.9), rgba(10, 14, 52, 0.9)), url(../img/game_1280.jpg);
+  }
+
+  .header__logo,
+  .footer__logo {
+    width: 210px;
+  }
+
+  .header__logo {
+    margin-top: 35px;
+  }
+
+  .footer__logo {
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .header__slogan {
+    margin: 0 auto;
+    padding: 165px 85px 0 90px;
+    font-size: 64px;
+    letter-spacing: 2.2px;
+    line-height: 1.25;
+  }
+
+  .text__header {
+    font-size: 85px;
+  }
+
+  .text__sports {
+    margin-top: 0;
+    margin-left: 100px;
+    font-size: 64px;
+    letter-spacing: 2.5px;
+  }
+
+  .footer__headline span {
+    font-size: 35px;
+    font-weight: normal;
+    line-height: 1;
+  }
+
+  .button__header,
+  .button__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 290px;
+  }
+
+  .header {
+    padding-bottom: 90px
+  }
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .button {
+    width: 311px;
+    height: 77px;
+    border-radius: 38.5px;
+    font-size: 14px;
+  }
+
+  .button:nth-child(1) {
+    margin: 0 15px 0 0;
+  }
+
+  .button:nth-child(2) {
+    margin: 0 0 0 15px;
+  }
+
+  .button.button-icon {
+    width: 33%;
+    padding-right: 25px;
+    padding-bottom: 5px;
+  }
+
+  .button:nth-child(2) .button-icon{
+    width: 40%;
+  }
+
+  .footer .surface {
+    width: 132px;
+    height: 132px;
+    border-radius: 25px;
+    margin-top: 130px;
+    padding: 14px 12px 12px 12px;
+    background-image: linear-gradient(180deg, rgb(115, 83, 210), rgb(80, 55, 155));
+  }
+
+
+  .athlets,
+  .players {
+    position: relative;
+  }
+
+  .athlets .img-footballer {
+    position: absolute;
+    top: 95px;
+    left: -172px;
+  }
+
+  .athlets .container-flex:nth-of-type(1),
+  .players .container-flex:nth-of-type(1),
+  .athlets .container-flex:nth-of-type(1)::before,
+  .players .container-flex:nth-of-type(1)::before {
+    background-color: #ffffff;
+  }
+
+  .athlets__headline,
+  .athlets .athlets__row {
+    margin: 0;
+    padding-left: 290px;
+    padding-right: 50px;
+  }
+
+  .players__headline,
+  .players .players__row {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 350px;
+  }
+
+  .athlets__headline,
+  .players__headline,
+  .advantages__title {
+    font-size: 80px;
+  }
+
+  .athlets__headline,
+  .players__headline {
+    padding-top: 65px;
+  }
+
+
+  .athlets .athlets__row:nth-last-of-type(n) {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 35px;
+  }
+
+  .players .players__row:nth-last-of-type(n) {
+    padding-top: 25px;
+    padding-bottom: 37px;
+    padding-right: 335px;
+  }
+
+  .athlets__title,
+  .players__title {
+    font-size: 32px;
+  }
+
+  .athlets__title::before,
+  .players__title::before {
+    font-size: 18px;
+    top: -10px;
+    margin-right: 10px;
+  }
+
+  .athlets__text {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .players__text {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+  }
+
+  .players .img-basketballer {
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+
+  .advantages__body {
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 65px;
+  }
+
+  .advantages .advantages__item:nth-of-type(3) .advantages__body {
+    padding-top: 0;
+    line-height: 1.2;
+    padding-bottom: 40px;
+  }
+
+  .advantages .box__card {
+    position: absolute;
+    left: 35px;
+    top: -80px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .advantages .box__number {
+    font-size: 24px;
+  }
+
+  .advantages .box__number::after {
+    bottom: -12px;
+  }
+
+  .advantages__number {
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+  }
+}
